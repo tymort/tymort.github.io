@@ -39,20 +39,26 @@ This artifact comes from the CS-340 Adcanced Programming Concepts course. This p
 {% include googleDrivePlayer.html id=page.driveId %}
 
 
-## [Enhancement One: Software Design and Engineering](
+## [Enhancement One: Software Design and Engineering](https://github.com/tymort/tymort.github.io/tree/main/Enhancement%20One)
+
 The artifact I created is a scene of a countertop with several glasses and a vase created in C++ using OpenGL. This artifact was originally created in the summer of 2024. 
+
 This project was included in my ePortfolio due to its stark distinction from the other projects. It includes visual elements that are not showcased in other projects which allows me to expand my showcase and its versatility. While the use of OpenGL isn’t the only way to create visual elements, it represents an important skill for games or other visual focused projects. The artifact was improved by streamlining the lighting sources and removing a redundant light source. The main light source was softened to create a less harsh brightness as well. In addition, textures were created for the cups to make them feel more realistic and tangible than their bright, single-color predecessors. The glass cup was also made more transparent using a proper alpha channel.
+
 One thing I learned while creating and improving this artifact is how hard it can be to revisit old projects when comments are not clear. Without the many comments I left in this code, it would be nearly impossible for me to remember its function. Thankfully through the use of these comments, I was able to relearn many of the things I knew in OpenGL and could work towards successful revision. This showcases the importance of proper documentation, especially on projects that may involve a large number of different people.
 
-## [Enhancement Two: Algorithms and Data Structure](
+## [Enhancement Two: Algorithms and Data Structure](https://github.com/tymort/tymort.github.io/tree/main/Enhancement%20Two)
+
 The artifact I created is a program that reads a CSV file into a binary search tree to allow the organization of college classes. This artifact was originally created in the spring of 2024. 
+
 This project was included in my ePortfolio because it deals with search which is ever more important as companies like Google focus on improving their search divisions. The same approach used to improve search times here leads to better search times and lower complexity on those projects. Therefore, showcasing an ability to improve search metrics and understand the tradeoffs that a faster search may have, are critical to a well founded portfolio. In my improvement of the artifact, I was able to cut search times from 2.691 and 2.19 seconds to 1.368 and 1.284 seconds respectively. While this is not a large amount of raw time due to the small nature of the list, it is roughly a 50% reduction in time taken to search, albeit at the cost of accuracy. It would struggle to return an accurate result if two courses share the same number, however, this is an acceptable tradeoff for its speed as the program will not error out. Instead, it would only return one of the possible courses and then prompt again. 
+
 One thing I learned while working on this artifact was how difficult it is to remove specifically alpha characters from a string. I was hoping to use regex like c#, however, there is no support as far as I could tell. There were several convoluted solutions, but due to the static nature of the prefixes I was instead able to trim the beginning of each string. I may try converting the course number string to an integer and see how that affects the search time as well.
 
-## [Enhancement Three: Databases](
+## [Enhancement Three: Databases](https://github.com/tymort/tymort.github.io/tree/main/Enhancement%20Three)
+
 The artifact I created is a program that reads a CSV file of Spotify data into a data frame for showcasing playlist statistics, however, it will have a database interface within the next few days. Unfortunately, I encountered numerous issues with MongoDB hosting and will be exploring other methods. However, all other aspects of the program are operational. This artifact was originally created in the summer of 2024. 
+
 This project was included in my ePortfolio because it deals with web dashboards and data displays which are very important and common today, especially in business climates. The usage of a large quantity of data also makes it perfect for a database interface. While this project is not identical to it’s original artifact form, it takes the same dash dashboard and migrates it from Jupyter notebook to Python. In addition, it migrates from cloud to local hosting, allowing anyone to utilize this program with their own data. It also now supports completely custom playlist uploading. This project showcases an ability to mesh mathematical data analysis through plotly with a traditional web dashboard using dash. It utilizes a MongoDB database that stores a user's Spotify data and interfaces with this database to call for data. It then utilizes this to create and display matplot figures as html embeds.
+
 One thing I learned while working on this artifact was how difficult it is to setup Python properly and how much of a difference it can make. When I originally setup Python on my computer, I must have downloaded it to a specific user and it now conflicts with another installation. Whenever I was utilizing pip install or other commands, it would show a successful installation, however, it would not work which prevented me from using PyMongo. I have learned to properly setup Python in the future and have begun the process of clean installing windows and Python and necessary packages. 
-
-
-
